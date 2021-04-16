@@ -24,6 +24,13 @@ function ConstructorStandings() {
                         <div key={con.position} className='conTag'>
                             <p className='pos'>{con.position}</p>
                             <div className={`divider ${con.Constructor.constructorId}`}></div>
+                            <div className="constructorInfo">
+                                <span className="constructorName">
+                                    {con.Constructor.name}
+                                </span>
+                                <span className='points'>Pts {con.points}</span>
+                            </div>
+                            <img src={`/imgs/logos/${con.Constructor.constructorId}Logo.png`} alt=""/>
                         </div>
                     ))}
                 </div>

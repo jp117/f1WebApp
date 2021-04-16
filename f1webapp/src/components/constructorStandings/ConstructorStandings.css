@@ -27,3 +27,24 @@
     min-height: 15px;
     margin: 5px;
 }
+
+.constructorInfo {
+    color: white;
+    flex-grow: 4;
+    margin-top: 15px;
+}
+
+.constructorName {
+    display: inline-flex;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.constructorInfo span {
+    width: 65%;
+}
+
+.constructorInfo .img {
+    margin-left: auto;
+    margin-right: 0;
+}
