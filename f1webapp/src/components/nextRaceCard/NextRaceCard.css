@@ -5,4 +5,16 @@
 
 .nextRaceCard .container {
     max-width: 800px;
+    display: flex;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+.nextRaceCard .container .location {
+    width: 50%;
+}
+
+.nextRaceCard .container .time {
+    width: 50%;
 }
