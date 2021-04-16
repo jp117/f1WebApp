@@ -1,0 +1,8 @@
+.nextRaceCard {
+    background-color: red;
+    padding: 10px 0;
+}
+
+.nextRaceCard .container {
+    max-width: 800px;
+}
