@@ -1,0 +1,52 @@
+.ferrari {
+    background-color: red;
+}
+
+.mercedes {
+    background-color: teal;
+}
+
+.red_bull {
+    background-color: navy;
+}
+
+.mclaren {
+    background-color: orangered;
+}
+
+.alphatauri {
+    background-color: darkblue;
+}
+
+.aston_martin {
+    background-color: darkgreen;
+}
+
+.alpine {
+    background-color: lightblue;
+}
+
+.williams {
+    background-color: white;
+}
+
+.haas {
+    background-color: gray;
+}
+
+.alfa {
+    background-color: red;
+}
+
+.pos {
+    background-color: white;
+    padding: 15px 5px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+}
+
+.divider {
+    padding: 0 2px;
+    margin: 10px 5px;
+}

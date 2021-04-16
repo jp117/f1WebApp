@@ -1,0 +1,65 @@
+.driverStandings {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.driverStandings h1 {
+    text-align: center;
+}
+
+.driverStandings .container {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.driverTag {
+    background-color: black;
+    display: flex;
+    max-height: 60px;
+    margin: 0 2.5px;
+    margin-top: 5px;
+    min-width: 390px;
+}
+
+.driverTag:nth-child(even) {
+    position: relative;
+    top: 30px;
+}
+
+.driverTag p {
+    min-height: 15px;
+    margin: 5px;
+}
+
+.driverInfo {
+    flex-grow: 4;
+}
+
+.name {
+    color: white;
+}
+
+.firstName {
+    text-transform: capitalize;
+}
+
+.lastName {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.team {
+    color: white;
+}
+
+img {
+    background: white;
+    object-fit: contain;
+    max-height: 60px;
+    padding: 0 10px;
+    margin: 5px;
+    width: 60px;
+}

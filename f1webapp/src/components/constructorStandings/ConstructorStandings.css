@@ -1,0 +1,29 @@
+.constructorStandings {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.constructorStandings h1 {
+    text-align: center;
+}
+
+.constructorStandings .container {
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.conTag {
+    background-color: black;
+    display: flex;
+    max-height: 60px;
+    width: 400px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conTag p {
+    min-height: 15px;
+    margin: 5px;
+}

@@ -12,7 +12,7 @@ function NextRaceCard(props) {
                 setNextRace(result.MRData.RaceTable.Races[0]);
             });
     }, []);
-    if (nextRace != undefined) {
+    if (nextRace !== undefined) {
         let raceDate = new Date(nextRace.date + "T" + nextRace.time);
         return (
             <div className='nextRaceCard'>
