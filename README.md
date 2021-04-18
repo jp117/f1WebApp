@@ -1,29 +1,19 @@
-# f1WebApp
+# Formula1RaceFans
 
-## Requirements
+This webapp utilizes Ergast API to display Formula 1 racing information
 
--   Implement a react app utilizing Ergast API to display Formula 1 Racing information I want in a format I want
+## Tech
+
+Build with ReactJS
 
 ---
 
-### MVP
+## Features
 
--   Race Schedule in user's LOCAL time
+A webapp that shows the next race start time in your local time as well as displays the current championship order without having to navigate multiple pages/tabs like on the official formula 1 page.
 
--   Time to next race
+---
 
--   Time to next qualifying session
+### API Reference
 
--   Results of qualifying session
-
--   Starting Grid for next race when available
-
--   results of previous race
-
--   Current drivers and constructors standings
-
-### Eventually
-
--   See qualifying and results for entire season
-
--   See qualifying and results for previous seasons
+Ergast API (https://ergast.com/mrd/)
