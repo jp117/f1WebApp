@@ -12,7 +12,7 @@ function App() {
         <div className='App'>
             <div className='container'>
                 <header>
-                    <div className='title'>F1RaceFans.com</div>
+                    <div className='title'>Formula1RaceFans.com</div>
                 </header>
                 {/* <Navbar /> */}
                 <NextRaceCard localTime={localTime} />
