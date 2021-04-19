@@ -19,7 +19,9 @@ function NextRaceCard(props) {
                 <div className='container'>
                     <div className='location'>NEXT RACE: {nextRace.Circuit.Location.country}</div>
                     <div className='time'>
-                        <span className='localtime'>{raceDate.toLocaleString()} Your Time</span>
+                        <span className='localtime'>
+                            {raceDate.toLocaleString(undefined, { timeZoneName: "short" })}
+                        </span>
                     </div>
                 </div>
             </div>

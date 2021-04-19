@@ -11,7 +11,10 @@ function App() {
     return (
         <div className='App'>
             <div className='container'>
-                <Navbar />
+                <header>
+                    <div className='title'>F1RaceFans.com</div>
+                </header>
+                {/* <Navbar /> */}
                 <NextRaceCard localTime={localTime} />
                 <DriverStandings />
                 <ConstructorStandings />

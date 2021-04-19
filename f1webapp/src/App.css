@@ -2,3 +2,22 @@
     margin: 0 auto;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
+header {
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+
+.title {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 800px) {
+    .title {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
